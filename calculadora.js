@@ -30,6 +30,12 @@ function operaciones(op)
             operacion = document.getElementById("resultado").value;
             document.getElementById("memoria").value = "suma";
             break;
+            case 'rest':
+                var operando1 = document.getElementById("resultado").value;
+                document.getElementById("resultado").value = operando1 + "+";
+                operacion = document.getElementById("resultado").value;
+                document.getElementById("memoria").value = "suma";
+                break;
             
         case 'igual':	
             
